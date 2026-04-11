@@ -1,6 +1,6 @@
 from openai import OpenAI
 from app.core.config import settings
-from app.llm.prompts import SYSTEM_PROMPT   # 只导入一次
+from app.llm.prompts import SYSTEM_PROMPT  
 
 client = OpenAI(
     api_key=settings.BAILIAN_API_KEY,
