@@ -2,6 +2,8 @@ from openai import OpenAI
 from app.core.config import settings
 from app.llm.prompts import SYSTEM_PROMPT  
 
+
+
 client = OpenAI(
     api_key=settings.BAILIAN_API_KEY,
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
